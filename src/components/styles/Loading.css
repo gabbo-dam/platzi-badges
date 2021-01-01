@@ -1,0 +1,13 @@
+.loader div {
+  margin: 0 auto;
+}
+
+.loader {
+  margin-top: 30vh;
+}
+
+.loader div svg {
+  width: 150px;
+  height: 150px;
+  fill: black;
+}
