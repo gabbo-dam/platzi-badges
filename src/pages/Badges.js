@@ -78,7 +78,7 @@ class Badges extends React.Component {
   state = {
     loading: true,
     error: null,
-    // data: undefined,
+    data: undefined,
   }
 
   componentDidMount() {
@@ -125,9 +125,9 @@ class Badges extends React.Component {
               New Badge
             </Link>
           </div>
-          {/* <div className='Badges__container'>
-            <BadgesList badges={this.state.data} />
-          </div> */}
+          <div className="Badges__container">
+            {/* <BadgesList badges={this.state.data} /> */}
+          </div>
         </div>
       </React.Fragment>
     )
