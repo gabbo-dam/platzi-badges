@@ -126,7 +126,7 @@ class Badges extends React.Component {
             </Link>
           </div>
           <div className="Badges__container">
-            <BadgesList badges={this.state.data} />
+            {/* <BadgesList badges={this.state.data} /> */}
           </div>
         </div>
       </React.Fragment>
