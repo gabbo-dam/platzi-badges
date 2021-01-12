@@ -101,10 +101,10 @@ class Badges extends React.Component {
       return <Loading color="#000" type="spinningBubbles"></Loading>
     }
 
-    if (this.state.error) {
-      return `Error: Server is Off`
-      // return `Error: ${this.state.error.message}`
-    }
+    // if (this.state.error) {
+    //   return `Error: Server is Off`
+    //   // return `Error: ${this.state.error.message}`
+    // }
 
     console.log('2/4. render()')
     return (
