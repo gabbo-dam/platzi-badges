@@ -102,7 +102,8 @@ class Badges extends React.Component {
     }
 
     if (this.state.error) {
-      return `Error: ${this.state.error.message}`
+      return `Error: Server is Off`
+      // return `Error: ${this.state.error.message}`
     }
 
     console.log('2/4. render()')
